@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/File">
+        <file>E:/SE_work/Qt_project/OnlibraryV1/images/图标.ico</file>
+        <file>E:/SE_work/Qt_project/OnlibraryV1/images/图标.png</file>
+    </qresource>
+</RCC>
