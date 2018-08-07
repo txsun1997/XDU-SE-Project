@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>loginDlg</class>
+ <widget class="QDialog" name="loginDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>792</width>
+    <height>524</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/File/E:/SE_work/Qt_project/OnlibraryV1/images/图标.png</normaloff>:/File/E:/SE_work/Qt_project/OnlibraryV1/images/图标.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLineEdit { 
+    border: 1px solid rgb(41, 57, 85);
+    border-radius: 7px;
+    background: white;
+    selection-background-color: darkgray;
+    font-size: 16px ;
+}
+
+QLineEdit:hover {
+	border: 2px solid blue;
+}
+
+QLineEdit[echoMode=&quot;2&quot;] {
+      lineedit-password-character: 42;
+}
+
+
+color: rgb(211, 211, 211);
+
+</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit_user">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>290</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPasswordLineEdit" name="lineEdit_pwd">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>350</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="loginBtn">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>410</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton{
+	border-radius:6px;
+	background-color: #1390C5;
+	min-width:80px;
+	color:rgb(255, 255, 255);
+	
+	font: 25 10pt &quot;微软雅黑 Light&quot;;
+}
+
+QPushButton:pressed {
+	background-color: #105D7E;
+}
+
+QPushButton:hover {
+	background-color: #2BA0F3;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>登      录</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="registerBtn">
+   <property name="geometry">
+    <rect>
+     <x>512</x>
+     <y>290</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton{
+	border-radius:6px;
+	background-color: rgb(240, 240, 240);
+	min-width:80px;
+	color: #1390C5;
+	font: 25 10pt &quot;微软雅黑 Light&quot;;
+}
+
+
+QPushButton:hover {
+	font: 25 10pt &quot;微软雅黑 Light&quot;;
+	text-decoration: underline;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>注册账户</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PLabel">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>791</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>                                                 1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ULabel">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>280</y>
+     <width>161</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>         2</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>293</x>
+     <y>280</y>
+     <width>20</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="zhaohuiBtn">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>350</y>
+     <width>93</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QPushButton{
+	border-radius:6px;
+	background-color: rgb(240, 240, 240);
+	min-width:80px;
+	color: #1390C5;
+	font: 25 10pt &quot;微软雅黑 Light&quot;;
+}
+
+
+QPushButton:hover {
+	font: 25 10pt &quot;微软雅黑 Light&quot;;
+	text-decoration: underline;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>忘记密码?</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QPasswordLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>qpasswordlineedit.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

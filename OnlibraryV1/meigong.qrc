@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>meigong.qss</file>
+    </qresource>
+</RCC>

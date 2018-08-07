@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>search.png</file>
+        <file>book.png</file>
+        <file>book2.png</file>
+        <file>recommend.png</file>
+        <file>recommend2.png</file>
+        <file>book3.png</file>
+        <file>order.png</file>
+        <file>cart.png</file>
+        <file>pwd.png</file>
+        <file>user2.png</file>
+        <file>triangle.png</file>
+        <file>triangle2.png</file>
+        <file>triangle3.png</file>
+        <file>tuijian.png</file>
+    </qresource>
+</RCC>

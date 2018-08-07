@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>G:/西安电子科技大学/第四学期/软件工程概论/图标.png</file>
+    </qresource>
+</RCC>

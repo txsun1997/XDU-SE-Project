@@ -1,0 +1,15 @@
+QLineEdit {
+    border: 1px solid rgb(41, 57, 85);   # 边框1px宽，颜色为深紫色
+    border-radius: 3px;  # 给定3px边框圆角
+    background: white;   # 背景色定为白色吧
+    selection-background-color: green; # 这个属性设定文本选中时的文本背景色
+    font-size: 14px ;  # 文本的大小
+}
+ 
+QLineEdit:hover {
+    border: 1px solid blue;  # 鼠标悬停时，我们将编辑框的边框设置为蓝色
+}
+
+QLineEdit[echoMode="2"] {
+    lineedit-password-character: 42;
+}
